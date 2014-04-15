@@ -9,7 +9,7 @@ public class SimpleJBehave {
 
     private static Embedder embedder = new Embedder();
     private static List<String> storyPaths = Arrays
-            .asList("com/thoughtworks/jbehave_configuration/Stories.story");
+            .asList("com/thoughtworks/jbehave_configuration/SquaringStories.story");
 
     public static void main(String[] args) {
         embedder.candidateSteps().add(new ExampleSteps());

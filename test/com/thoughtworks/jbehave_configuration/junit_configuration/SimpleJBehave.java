@@ -14,6 +14,6 @@ public class SimpleJBehave extends JUnitStories {
 
     @Override
     protected List<String> storyPaths() {
-        return Arrays.asList("com/thoughtworks/jbehave_configuration/Stories.story");
+        return Arrays.asList("com/thoughtworks/jbehave_configuration/SquaringStories.story");
     }
 }

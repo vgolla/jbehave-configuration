@@ -1,4 +1,4 @@
-package com.thoughtworks.jbehave_configuration.most_useful_configuration;
+package com.thoughtworks.jbehave_configuration._5_most_useful_configuration;
 
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Named;

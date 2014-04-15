@@ -1,4 +1,4 @@
-package com.thoughtworks.jbehave_configuration.maximum_configuration;
+package com.thoughtworks.jbehave_configuration._4_maximum_configuration;
 
 import com.thoughtworks.paranamer.NullParanamer;
 import org.jbehave.core.configuration.Configuration;

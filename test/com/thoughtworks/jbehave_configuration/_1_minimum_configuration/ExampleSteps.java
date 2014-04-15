@@ -1,11 +1,12 @@
-package com.thoughtworks.jbehave_configuration.step_factory;
+package com.thoughtworks.jbehave_configuration._1_minimum_configuration;
 
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Named;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
+import org.jbehave.core.steps.Steps;
 
-public class ExampleSteps {
+public class ExampleSteps extends Steps {
     int x;
 
     @Given("a variable x with value $value")
@@ -23,5 +24,4 @@ public class ExampleSteps {
         if (value != x)
             throw new RuntimeException("x is " + x + ", but should be " + value);
     }
-
 }

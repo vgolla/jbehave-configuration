@@ -1,4 +1,4 @@
-package com.thoughtworks.jbehave_configuration.junit_configuration;
+package com.thoughtworks.jbehave_configuration._2_junit_configuration;
 
 import org.jbehave.core.junit.JUnitStories;
 

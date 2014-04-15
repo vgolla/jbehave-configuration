@@ -1,4 +1,4 @@
-package com.thoughtworks.jbehave_configuration.step_factory;
+package com.thoughtworks.jbehave_configuration._3_step_factory;
 
 import org.jbehave.core.junit.JUnitStories;
 import org.jbehave.core.steps.CompositeStepsFactory;

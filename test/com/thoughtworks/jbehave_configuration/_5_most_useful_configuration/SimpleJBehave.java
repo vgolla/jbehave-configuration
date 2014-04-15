@@ -1,6 +1,6 @@
-package com.thoughtworks.jbehave_configuration.most_useful_configuration;
+package com.thoughtworks.jbehave_configuration._5_most_useful_configuration;
 
-import com.thoughtworks.jbehave_configuration.maximum_configuration.ExampleSteps;
+import com.thoughtworks.jbehave_configuration._4_maximum_configuration.ExampleSteps;
 import org.jbehave.core.configuration.Configuration;
 import org.jbehave.core.configuration.MostUsefulConfiguration;
 import org.jbehave.core.junit.JUnitStories;
@@ -13,6 +13,7 @@ import java.util.List;
 public class SimpleJBehave extends JUnitStories {
 
     private Configuration configuration;
+
 
     public SimpleJBehave() {
         super();

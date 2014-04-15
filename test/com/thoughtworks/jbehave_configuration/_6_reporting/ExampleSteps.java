@@ -1,4 +1,4 @@
-package com.thoughtworks.jbehave_configuration.minimum_configuration;
+package com.thoughtworks.jbehave_configuration._6_reporting;
 
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Named;

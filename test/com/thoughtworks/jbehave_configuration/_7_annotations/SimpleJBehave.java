@@ -15,7 +15,7 @@ import java.util.List;
 @RunWith(AnnotatedEmbedderRunner.class)
 @Configure(storyReporterBuilder = SimpleReportBuilder.class)
 @UsingSteps(instances = { ExampleSteps.class })
-@UsingEmbedder(embedder = Embedder.class)
+@UsingEmbedder(embedder = Embedder.class, metaFilters = "-skip+theme multiply")
 
 public class SimpleJBehave extends InjectableEmbedder {
     @Test

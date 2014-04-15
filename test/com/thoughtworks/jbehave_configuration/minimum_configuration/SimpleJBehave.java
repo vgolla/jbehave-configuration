@@ -1,4 +1,4 @@
-package com.thoughtworks.jbehave_configuration;
+package com.thoughtworks.jbehave_configuration.minimum_configuration;
 
 import org.jbehave.core.embedder.Embedder;
 

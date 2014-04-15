@@ -20,7 +20,7 @@ import java.util.List;
 public class SimpleJBehave extends InjectableEmbedder {
     @Test
     public void run() {
-        List<String> storyPaths = Arrays.asList("com/thoughtworks/jbehave_configuration/SquaringStories.story");
+        List<String> storyPaths = Arrays.asList("com/thoughtworks/jbehave_configuration/_7_annotations/SquaringStories.story");
         injectedEmbedder().runStoriesAsPaths(storyPaths);
     }
 }

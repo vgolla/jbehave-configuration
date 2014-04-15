@@ -1,5 +1,5 @@
 
-Scenario: 2 squared
+Scenario: 2 times two
 
 Given a variable x with value 2
 When I multiply x by 2

@@ -19,6 +19,11 @@ public class ExampleSteps extends Steps {
         x = x * value;
     }
 
+    @When("I raise the power of x by $value")
+    public void whenIRaiseXBy(@Named("value") int value ) {
+        x = (int) Math.pow(x, value);
+    }
+
     @Then("x should equal $value")
     public void thenXshouldBe(@Named("value") int value) {
         if (value != x)
